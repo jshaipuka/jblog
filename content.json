@@ -1,1 +1,1 @@
-{"pages":[{"title":"About Minos","text":"TodoAdd about page","link":"/jblog/about/index.html"},{"title":"","text":"console.log(\"hello world\");","link":"/jblog/downloads/code/example.js"}],"posts":[{"title":"hello-world","text":"","link":"/jblog/hello-world/"}],"tags":[],"categories":[]}
+{"pages":[{"title":"About Minos","text":"TodoAdd about page","link":"/about/index.html"},{"title":"","text":"console.log(\"hello world\");","link":"/downloads/code/example.js"}],"posts":[{"title":"hello-world","text":"","link":"/2018/09/10/hello-world/"}],"tags":[],"categories":[]}
