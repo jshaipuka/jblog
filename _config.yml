@@ -127,7 +127,7 @@ search:
 # Share plugin settings.
 share:
   type: addthis
-  install_url: "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b97d76504deb62c"
+  install_url: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b97d76504deb62c
 
 # Comment plugin settings.
 comment:
