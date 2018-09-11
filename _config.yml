@@ -82,7 +82,6 @@ theme: minos
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  #repository: https://github.com/jshaipuka/jblog.github.io
   repository: https://github.com/jshaipuka/jblog.git
 
 marked:
@@ -93,8 +92,8 @@ githubEmojis:
 
 menu:
   Home: /
-  Timeline: /archives
-  About: /about
+  Archives: /archives
+  #About: /about
   #Recent scribbles: /categories/Scribbles
 
 article:
@@ -122,18 +121,18 @@ logo:
   text: "JScribbles"
 
 # Search plugin settings.
-#search:
-#  type: insight
+search:
+  type: insight
 
 # Share plugin settings.
-#share:
-#  type: addthis
-#  install_url:
+share:
+  type: addthis
+  install_url: "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b97d76504deb62c"
 
 # Comment plugin settings.
-#comment:
-#  type: disqus
-#  shortname:
+comment:
+  type: disqus
+  shortname: jelenalv
 
 # Other plugins and their settings.
 plugins:
@@ -142,7 +141,7 @@ plugins:
 #    tracking_id:
 
 # Website's icon url.
-#favicon: /favicon.png
+favicon: /favicon.ico
 
 # Open Graph metadata (https://hexo.io/docs/helpers.html#open-graph)
 open_graph:

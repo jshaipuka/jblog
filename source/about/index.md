@@ -1,5 +1,4 @@
-title: About Minos
+title: About
+comment: false
 ---
 ### :memo: Todo
-
-Add about page
