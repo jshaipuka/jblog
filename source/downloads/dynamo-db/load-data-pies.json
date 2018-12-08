@@ -1,0 +1,144 @@
+{
+  "pies": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "1" },
+          "name": { "S": "Bacon and egg pie" },
+          "taste": { "S": "savoury" },
+          "main_ingredient": { "S": "bacon" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "2" },
+          "name": { "S": "Scotch pie" },
+          "taste": { "S": "savoury" },
+          "main_ingredient": { "S": "minced meat" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "3" },
+          "name": { "S": "Pork pie" },
+          "taste": { "S": "savoury" },
+          "main_ingredient": { "S": "pork" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "4" },
+          "name": { "S": "Steak pie" },
+          "taste": { "S": "savoury" },
+          "main_ingredient": { "S": "steak" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "5" },
+          "name": { "S": "Kurnik" },
+          "taste": { "S": "savoury" },
+          "main_ingredient": { "S": "chicken" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "6" },
+          "name": { "S": "Fisherman's pie" },
+          "taste": { "S": "savoury" },
+          "main_ingredient": { "S": "white fish" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "7" },
+          "name": { "S": "Apple pie" },
+          "taste": { "S": "sweet" },
+          "main_ingredient": { "S": "apple" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "8" },
+          "name": { "S": "Blackberry pie" },
+          "taste": { "S": "sweet" },
+          "main_ingredient": { "S": "blackberry" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "9" },
+          "name": { "S": "Blueberry pie" },
+          "taste": { "S": "sweet" },
+          "main_ingredient": { "S": "blueberry" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "10" },
+          "name": { "S": "Cherry pie" },
+          "taste": { "S": "sweet" },
+          "main_ingredient": { "S": "cherry" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "11" },
+          "name": { "S": "Banana cream pie" },
+          "taste": { "S": "sweet" },
+          "main_ingredient": { "S": "banana" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "12" },
+          "name": { "S": "Lemon meringue pie" },
+          "taste": { "S": "sweet" },
+          "main_ingredient": { "S": "lemon" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "13" },
+          "name": { "S": "Bundevara" },
+          "taste": { "S": "sweet" },
+          "main_ingredient": { "S": "pumpkin" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "N": "14" },
+          "name": { "S": "Strawberry cheese pie" },
+          "taste": { "S": "sweet" },
+          "main_ingredient": { "S": "strawberry" }
+        }
+      }
+    }
+  ]
+}
