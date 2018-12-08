@@ -137,8 +137,8 @@ comment:
 # Other plugins and their settings.
 plugins:
   gallery: true
-#  google-analytics:
-#    tracking_id:
+  google-analytics:
+    tracking_id: UA-130658475-1
 
 # Website's icon url.
 favicon: /favicon.ico
