@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -144,9 +144,11 @@ plugins:
 favicon: /favicon.ico
 
 # Open Graph metadata (https://hexo.io/docs/helpers.html#open-graph)
-open_graph:
-  twitter_id:
-  twitter_site:
-  google_plus:
-  fb_admins:
-  fb_app_id:
+head:
+  open_graph:
+    twitter_card: summary_large_image
+    twitter_id: jshaipuka
+    twitter_site: jshaipuka
+    google_plus:
+    fb_admins:
+    fb_app_id:
