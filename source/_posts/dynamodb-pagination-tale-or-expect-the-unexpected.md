@@ -11,7 +11,7 @@ tags:
 {% img /gallery/dynamodb-pagination-tale-or-expect-the-unexpected/header.png 1500 1500 code %}
 
 
-You have lots of pies - *6 savour* and *8 sweet*. You take all the sweet pies you can get from the query above. How many do you have?
+You have lots of pies — *6 savoury* and *8 sweet*. You take all the sweet pies you can get from the query above. How many do you have?
 
 What happens when you try to filter data in DynamoDB?
 
@@ -33,9 +33,9 @@ First of all we need a table and some data in it.
 
 To create a table we need to specify a primary key. It can either consist of a partition key or both a partition key and a sort key. We will go with the latter option:
 
-*id* – As partition key of type number.
+*id* — As partition key of type number.
 
-*name* – As sort key of type string.
+*name* — As sort key of type string.
 
 And here they are as as parameters for the `create-table` command:
 
@@ -125,7 +125,7 @@ aws dynamodb scan \
      --expression-attribute-values '{":taste":{"S":"sweet"}}'
 {% endcodeblock %}
 
-In the `filter-expression` - the first part "taste" is the column name used for filtering and ":taste" is the filter value. The filter value has to be defined in the `expression-attribute-values`.
+In the `filter-expression` — the first part "taste" is the column name used for filtering and ":taste" is the filter value. The filter value has to be defined in the `expression-attribute-values`.
 
 When we run that command we get the expected results. Just the 8 sweet pies.
 
